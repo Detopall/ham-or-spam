@@ -1,0 +1,58 @@
+@font-face {
+	font-family: "JetBrains";
+	src: url("../fonts/JetBrainsMono-Medium.woff2") format("woff2");
+}
+
+body {
+	font-family: "JetBrains", monospace;
+	margin: 0;
+	padding: 20px;
+}
+
+
+h1 {
+	text-align: center;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+form {
+	display: flex;
+	align-items: center;
+}
+
+input[type="text"] {
+	flex: 1;
+	padding: 10px;
+	font-size: 16px;
+}
+
+button[type="submit"] {
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: green;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	margin-left: 0.2rem;
+}
+
+#result {
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+.ham {
+	color: green;
+}
+
+.spam {
+	color: red;
+}
